@@ -1,0 +1,65 @@
+[{
+	"cost": 0,
+	"wonder": false,
+	"name": "Construction Ramp",
+	"depends": [],
+	"blocks": [],
+	"image": "images/300px-Chichen_Itza_3.jpg",
+	"description": ""
+}, {
+	"cost": 0,
+	"wonder": true,
+	"name": "Great Pyramid",
+	"depends": ["Construction Ramp"],
+	"blocks": [],
+	"image": "images/300px-Chichen_Itza_3.jpg",
+  "description": "A wonder of the world"
+}, {
+	"cost": 0,
+	"wonder": false,
+	"name": "Papyrus",
+	"depends": [],
+	"blocks": [],
+	"image": "images/300px-Chichen_Itza_3.jpg",
+	"description": ""
+}, {
+	"cost": 0,
+	"wonder": false,
+	"name": "Hyroglyphics",
+	"depends": [],
+	"blocks": [],
+	"image": "images/300px-Chichen_Itza_3.jpg",
+	"description": ""
+}, {
+	"cost": 0,
+	"wonder": false,
+	"name": "Pottery",
+	"depends": [],
+	"blocks": [],
+	"image": "images/300px-Chichen_Itza_3.jpg",
+	"description": ""
+}, {
+	"cost": 0,
+	"wonder": false,
+	"name": "Seafaring",
+	"depends": [],
+	"blocks": [],
+	"image": "images/300px-Chichen_Itza_3.jpg",
+	"description": ""
+}, {
+	"cost": 0,
+	"wonder": false,
+	"name": "Lighthouse",
+	"depends": [],
+	"blocks": [],
+	"image": "images/300px-Chichen_Itza_3.jpg",
+	"description": ""
+}, {
+	"cost": 0,
+	"wonder": false,
+	"name": "Masonry",
+	"depends": [],
+	"blocks": [],
+	"image": "images/300px-Chichen_Itza_3.jpg",
+	"description": ""
+}]

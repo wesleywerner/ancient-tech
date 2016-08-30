@@ -1,0 +1,43 @@
+[{
+	"name": "Egyptians",
+	"color": "deep-purple",
+	"defaultTech": ["Construction Ramp", "Great Pyramid", "Papyrus", "Hyroglyphics", "Pottery", "Seafaring", "Lighthouse"],
+	"allowedTech": [],
+	"allies": ["Mayan"],
+	"enemies": []
+}, {
+	"name": "Mesopotamians",
+	"color": "brown",
+	"defaultTech": [],
+	"allowedTech": [],
+	"allies": [],
+	"enemies": []
+}, {
+	"name": "Chinese",
+	"color": "pink",
+	"defaultTech": [],
+	"allowedTech": [],
+	"allies": [],
+	"enemies": []
+}, {
+	"name": "Greek",
+	"color": "green",
+	"defaultTech": [],
+	"allowedTech": [],
+	"allies": [],
+	"enemies": []
+}, {
+	"name": "Roman",
+	"color": "deep-orange",
+	"defaultTech": [],
+	"allowedTech": [],
+	"allies": [],
+	"enemies": []
+}, {
+	"name": "Mayan",
+	"color": "teal",
+	"defaultTech": ["Masonry", "Pottery"],
+	"allowedTech": [],
+	"allies": [],
+	"enemies": []
+}]
