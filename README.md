@@ -6,6 +6,20 @@ Theme: Ancient technology
 
 A technology research and progression game, data driven, where the player uses resources to fund a technology line.
 
+
+# Freeciv resources
+
+Rulesets:
+
+    http://svn.gna.org/viewcvs/freeciv/trunk/data/classic/
+
+With r the total number of required techs for a given technology, the number of bulbs that will be needed for researching this technology is:  
+  
+    (r+2)*sqrt(r+2)*10
+
+---------
+
+
 # Research
 
 * https://en.wikipedia.org/wiki/Ancient_technology
