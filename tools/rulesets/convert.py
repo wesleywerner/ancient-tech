@@ -18,4 +18,9 @@ import json
 from configobj import ConfigObj
 filename = sys.argv[1]
 config = ConfigObj(filename)
-print(json.dumps(config))
+# convert to a list
+l = []
+for n in config.sections:
+  if n != 'control':
+    l.append(config.get(n))
+print(json.dumps(l))
