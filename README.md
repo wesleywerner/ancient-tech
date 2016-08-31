@@ -112,7 +112,7 @@ paper
   * printing
 sea faring
 
-### Greek
+### Greeks
 
 steam engine
 watermill
@@ -123,7 +123,7 @@ Golden Ratio
   * Architecture
 
 
-### Roman
+### Romans
 
 agriculture
 roads
@@ -134,7 +134,7 @@ glass blowing
 concrete
 
 
-### Mayan
+### Mayans
 
 aqueducts
 masonry

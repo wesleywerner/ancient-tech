@@ -1,0 +1,718 @@
+[
+    {
+        "description": "Classic technology data for Freeciv (as Civ2, minus a few)",
+        "format_version": "10",
+        "options": "+Freeciv-ruleset-Devel-2015.January.14 web-compatible"
+    },
+    {
+        "flags": "",
+        "graphic": "a.advanced_flight",
+        "graphic_alt": "-",
+        "name": "Advanced Flight",
+        "req1": "Radio",
+        "req2": "Machine Tools"
+    },
+    {
+        "flags": "",
+        "graphic": "a.alphabet",
+        "graphic_alt": "-",
+        "name": "Alphabet",
+        "req1": "None",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.amphibious_warfare",
+        "graphic_alt": "-",
+        "name": "Amphibious Warfare",
+        "req1": "Navigation",
+        "req2": "Tactics"
+    },
+    {
+        "flags": "",
+        "graphic": "a.astronomy",
+        "graphic_alt": "-",
+        "name": "Astronomy",
+        "req1": "Mysticism",
+        "req2": "Mathematics"
+    },
+    {
+        "flags": "",
+        "graphic": "a.atomic_theory",
+        "graphic_alt": "-",
+        "name": "Atomic Theory",
+        "req1": "Theory of Gravity",
+        "req2": "Physics"
+    },
+    {
+        "graphic": "a.automobile",
+        "graphic_alt": "-",
+        "helptext": "Increases the population's contribution to pollution.",
+        "name": "Automobile",
+        "req1": "Combustion",
+        "req2": "Steel"
+    },
+    {
+        "flags": "",
+        "graphic": "a.banking",
+        "graphic_alt": "-",
+        "name": "Banking",
+        "req1": "Trade",
+        "req2": "The Republic"
+    },
+    {
+        "flags": "Bridge",
+        "graphic": "a.bridge_building",
+        "graphic_alt": "-",
+        "helptext": "Allows roads to be built on river tiles.",
+        "name": "Bridge Building",
+        "req1": "Iron Working",
+        "req2": "Construction"
+    },
+    {
+        "flags": "",
+        "graphic": "a.bronze_working",
+        "graphic_alt": "-",
+        "name": "Bronze Working",
+        "req1": "None",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.ceremonial_burial",
+        "graphic_alt": "-",
+        "name": "Ceremonial Burial",
+        "req1": "None",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.chemistry",
+        "graphic_alt": "-",
+        "name": "Chemistry",
+        "req1": "University",
+        "req2": "Medicine"
+    },
+    {
+        "flags": "",
+        "graphic": "a.chivalry",
+        "graphic_alt": "-",
+        "name": "Chivalry",
+        "req1": "Feudalism",
+        "req2": "Horseback Riding"
+    },
+    {
+        "flags": "",
+        "graphic": "a.code_of_laws",
+        "graphic_alt": "-",
+        "name": "Code of Laws",
+        "req1": "Alphabet",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.combined_arms",
+        "graphic_alt": "-",
+        "name": "Combined Arms",
+        "req1": "Mobile Warfare",
+        "req2": "Advanced Flight"
+    },
+    {
+        "flags": "",
+        "graphic": "a.combustion",
+        "graphic_alt": "-",
+        "name": "Combustion",
+        "req1": "Refining",
+        "req2": "Explosives"
+    },
+    {
+        "flags": "",
+        "graphic": "a.communism",
+        "graphic_alt": "-",
+        "helptext": "Reduces the effect of Cathedrals.",
+        "name": "Communism",
+        "req1": "Philosophy",
+        "req2": "Industrialization"
+    },
+    {
+        "flags": "",
+        "graphic": "a.computers",
+        "graphic_alt": "-",
+        "name": "Computers",
+        "req1": "Mass Production",
+        "req2": "Miniaturization"
+    },
+    {
+        "flags": "",
+        "graphic": "a.conscription",
+        "graphic_alt": "-",
+        "name": "Conscription",
+        "req1": "Democracy",
+        "req2": "Metallurgy"
+    },
+    {
+        "flags": "",
+        "graphic": "a.construction",
+        "graphic_alt": "-",
+        "helptext": "Allows Settlers, Workers and Engineers to build fortresses.",
+        "name": "Construction",
+        "req1": "Masonry",
+        "req2": "Currency"
+    },
+    {
+        "flags": "",
+        "graphic": "a.currency",
+        "graphic_alt": "-",
+        "name": "Currency",
+        "req1": "Bronze Working",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.democracy",
+        "graphic_alt": "-",
+        "name": "Democracy",
+        "req1": "Banking",
+        "req2": "Invention"
+    },
+    {
+        "flags": "",
+        "graphic": "a.economics",
+        "graphic_alt": "-",
+        "name": "Economics",
+        "req1": "Banking",
+        "req2": "University"
+    },
+    {
+        "flags": "",
+        "graphic": "a.electricity",
+        "graphic_alt": "-",
+        "helptext": "Improves the effect of Colosseums.",
+        "name": "Electricity",
+        "req1": "Metallurgy",
+        "req2": "Magnetism"
+    },
+    {
+        "flags": "",
+        "graphic": "a.electronics",
+        "graphic_alt": "-",
+        "name": "Electronics",
+        "req1": "The Corporation",
+        "req2": "Electricity"
+    },
+    {
+        "flags": "",
+        "graphic": "a.engineering",
+        "graphic_alt": "-",
+        "name": "Engineering",
+        "req1": "The Wheel",
+        "req2": "Construction"
+    },
+    {
+        "flags": "",
+        "graphic": "a.environmentalism",
+        "graphic_alt": "-",
+        "name": "Environmentalism",
+        "req1": "Recycling",
+        "req2": "Space Flight"
+    },
+    {
+        "flags": "",
+        "graphic": "a.espionage",
+        "graphic_alt": "-",
+        "name": "Espionage",
+        "req1": "Communism",
+        "req2": "Democracy"
+    },
+    {
+        "flags": "",
+        "graphic": "a.explosives",
+        "graphic_alt": "-",
+        "name": "Explosives",
+        "req1": "Gunpowder",
+        "req2": "Chemistry"
+    },
+    {
+        "flags": "",
+        "graphic": "a.feudalism",
+        "graphic_alt": "-",
+        "name": "Feudalism",
+        "req1": "Warrior Code",
+        "req2": "Monarchy"
+    },
+    {
+        "flags": "Build_Airborne",
+        "graphic": "a.flight",
+        "graphic_alt": "-",
+        "helptext": "Decreases one-time revenue from new trade routes.",
+        "name": "Flight",
+        "req1": "Combustion",
+        "req2": "Theory of Gravity"
+    },
+    {
+        "flags": "",
+        "graphic": "a.fusion_power",
+        "graphic_alt": "-",
+        "name": "Fusion Power",
+        "req1": "Nuclear Power",
+        "req2": "Superconductors"
+    },
+    {
+        "flags": "",
+        "graphic": "a.genetic_engineering",
+        "graphic_alt": "-",
+        "name": "Genetic Engineering",
+        "req1": "Medicine",
+        "req2": "The Corporation"
+    },
+    {
+        "flags": "",
+        "graphic": "a.guerilla_warfare",
+        "graphic_alt": "-",
+        "name": "Guerilla Warfare",
+        "req1": "Communism",
+        "req2": "Tactics"
+    },
+    {
+        "flags": "",
+        "graphic": "a.gunpowder",
+        "graphic_alt": "-",
+        "name": "Gunpowder",
+        "req1": "Invention",
+        "req2": "Iron Working"
+    },
+    {
+        "flags": "",
+        "graphic": "a.horseback_riding",
+        "graphic_alt": "-",
+        "name": "Horseback Riding",
+        "req1": "None",
+        "req2": "None"
+    },
+    {
+        "graphic": "a.industrialization",
+        "graphic_alt": "-",
+        "helptext": "Population will start contributing to pollution.",
+        "name": "Industrialization",
+        "req1": "Railroad",
+        "req2": "Banking"
+    },
+    {
+        "flags": "",
+        "graphic": "a.invention",
+        "graphic_alt": "-",
+        "helptext": "Increases units' vision when in fortresses.",
+        "name": "Invention",
+        "req1": "Engineering",
+        "req2": "Literacy"
+    },
+    {
+        "flags": "",
+        "graphic": "a.iron_working",
+        "graphic_alt": "-",
+        "name": "Iron Working",
+        "req1": "Bronze Working",
+        "req2": "Warrior Code"
+    },
+    {
+        "flags": "",
+        "graphic": "a.labor_union",
+        "graphic_alt": "-",
+        "name": "Labor Union",
+        "req1": "Mass Production",
+        "req2": "Guerilla Warfare"
+    },
+    {
+        "flags": "",
+        "graphic": "a.laser",
+        "graphic_alt": "-",
+        "name": "Laser",
+        "req1": "Mass Production",
+        "req2": "Nuclear Power"
+    },
+    {
+        "flags": "",
+        "graphic": "a.leadership",
+        "graphic_alt": "-",
+        "name": "Leadership",
+        "req1": "Chivalry",
+        "req2": "Gunpowder"
+    },
+    {
+        "flags": "",
+        "graphic": "a.literacy",
+        "graphic_alt": "-",
+        "name": "Literacy",
+        "req1": "Writing",
+        "req2": "Code of Laws"
+    },
+    {
+        "flags": "",
+        "graphic": "a.machine_tools",
+        "graphic_alt": "-",
+        "name": "Machine Tools",
+        "req1": "Steel",
+        "req2": "Tactics"
+    },
+    {
+        "flags": "",
+        "graphic": "a.magnetism",
+        "graphic_alt": "-",
+        "helptext": "Allows establishing one more trade route from each city.",
+        "name": "Magnetism",
+        "req1": "Iron Working",
+        "req2": "Physics"
+    },
+    {
+        "flags": "",
+        "graphic": "a.map_making",
+        "graphic_alt": "-",
+        "name": "Map Making",
+        "req1": "Alphabet",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.masonry",
+        "graphic_alt": "-",
+        "name": "Masonry",
+        "req1": "None",
+        "req2": "None"
+    },
+    {
+        "graphic": "a.mass_production",
+        "graphic_alt": "-",
+        "helptext": "Increases the population's contribution to pollution.",
+        "name": "Mass Production",
+        "req1": "Automobile",
+        "req2": "The Corporation"
+    },
+    {
+        "flags": "",
+        "graphic": "a.mathematics",
+        "graphic_alt": "-",
+        "name": "Mathematics",
+        "req1": "Alphabet",
+        "req2": "Masonry"
+    },
+    {
+        "flags": "",
+        "graphic": "a.medicine",
+        "graphic_alt": "-",
+        "name": "Medicine",
+        "req1": "Philosophy",
+        "req2": "Trade"
+    },
+    {
+        "flags": "",
+        "graphic": "a.metallurgy",
+        "graphic_alt": "-",
+        "name": "Metallurgy",
+        "req1": "Gunpowder",
+        "req2": "University"
+    },
+    {
+        "flags": "",
+        "graphic": "a.miniaturization",
+        "graphic_alt": "-",
+        "name": "Miniaturization",
+        "req1": "Machine Tools",
+        "req2": "Electronics"
+    },
+    {
+        "flags": "",
+        "graphic": "a.mobile_warfare",
+        "graphic_alt": "-",
+        "name": "Mobile Warfare",
+        "req1": "Automobile",
+        "req2": "Tactics"
+    },
+    {
+        "flags": "",
+        "graphic": "a.monarchy",
+        "graphic_alt": "-",
+        "name": "Monarchy",
+        "req1": "Ceremonial Burial",
+        "req2": "Code of Laws"
+    },
+    {
+        "flags": "",
+        "graphic": "a.monotheism",
+        "graphic_alt": "-",
+        "name": "Monotheism",
+        "req1": "Philosophy",
+        "req2": "Polytheism"
+    },
+    {
+        "flags": "",
+        "graphic": "a.mysticism",
+        "graphic_alt": "-",
+        "helptext": "Improves the effect of Temples.",
+        "name": "Mysticism",
+        "req1": "Ceremonial Burial",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.navigation",
+        "graphic_alt": "-",
+        "name": "Navigation",
+        "req1": "Seafaring",
+        "req2": "Astronomy"
+    },
+    {
+        "flags": "",
+        "graphic": "a.nuclear_fission",
+        "graphic_alt": "-",
+        "name": "Nuclear Fission",
+        "req1": "Mass Production",
+        "req2": "Atomic Theory"
+    },
+    {
+        "flags": "",
+        "graphic": "a.nuclear_power",
+        "graphic_alt": "-",
+        "helptext": "Gives sea units one extra move.",
+        "name": "Nuclear Power",
+        "req1": "Nuclear Fission",
+        "req2": "Electronics"
+    },
+    {
+        "bonus_message": "Great philosophers from all the world join \nyour civilization: you learn %s immediately.",
+        "flags": "Bonus_Tech",
+        "graphic": "a.philosophy",
+        "graphic_alt": "-",
+        "name": "Philosophy",
+        "req1": "Mysticism",
+        "req2": "Literacy"
+    },
+    {
+        "flags": "",
+        "graphic": "a.physics",
+        "graphic_alt": "-",
+        "name": "Physics",
+        "req1": "Literacy",
+        "req2": "Navigation"
+    },
+    {
+        "graphic": "a.plastics",
+        "graphic_alt": "-",
+        "helptext": "Increases the population's contribution to pollution.",
+        "name": "Plastics",
+        "req1": "Refining",
+        "req2": "Space Flight"
+    },
+    {
+        "flags": "",
+        "graphic": "a.polytheism",
+        "graphic_alt": "-",
+        "name": "Polytheism",
+        "req1": "Horseback Riding",
+        "req2": "Ceremonial Burial"
+    },
+    {
+        "flags": "",
+        "graphic": "a.pottery",
+        "graphic_alt": "-",
+        "name": "Pottery",
+        "req1": "None",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.radio",
+        "graphic_alt": "-",
+        "helptext": "Allows Workers and Engineers to build airbases and buoys.",
+        "name": "Radio",
+        "req1": "Flight",
+        "req2": "Electricity"
+    },
+    {
+        "flags": "",
+        "graphic": "a.railroad",
+        "graphic_alt": "-",
+        "helptext": "\nAllows Settlers, Workers and Engineers to upgrade roads to railroads.\n\nDecreases one-time revenue from new trade routes.\n",
+        "name": "?tech:Railroad",
+        "req1": "Steam Engine",
+        "req2": "Bridge Building"
+    },
+    {
+        "flags": "",
+        "graphic": "a.recycling",
+        "graphic_alt": "-",
+        "name": "Recycling",
+        "req1": "Mass Production",
+        "req2": "Democracy"
+    },
+    {
+        "flags": "",
+        "graphic": "a.refining",
+        "graphic_alt": "-",
+        "name": "Refining",
+        "req1": "Chemistry",
+        "req2": "The Corporation"
+    },
+    {
+        "flags": "",
+        "graphic": "a.refrigeration",
+        "graphic_alt": "-",
+        "helptext": "\nAllows Settlers, Workers and Engineers to upgrade irrigation systems \nto farmland.\n",
+        "name": "Refrigeration",
+        "req1": "Sanitation",
+        "req2": "Electricity"
+    },
+    {
+        "flags": "",
+        "graphic": "a.robotics",
+        "graphic_alt": "-",
+        "name": "Robotics",
+        "req1": "Mobile Warfare",
+        "req2": "Computers"
+    },
+    {
+        "flags": "",
+        "graphic": "a.rocketry",
+        "graphic_alt": "-",
+        "name": "Rocketry",
+        "req1": "Advanced Flight",
+        "req2": "Electronics"
+    },
+    {
+        "flags": "",
+        "graphic": "a.sanitation",
+        "graphic_alt": "-",
+        "name": "Sanitation",
+        "req1": "Engineering",
+        "req2": "Medicine"
+    },
+    {
+        "flags": "",
+        "graphic": "a.seafaring",
+        "graphic_alt": "-",
+        "name": "Seafaring",
+        "req1": "Pottery",
+        "req2": "Map Making"
+    },
+    {
+        "flags": "",
+        "graphic": "a.space_flight",
+        "graphic_alt": "-",
+        "name": "Space Flight",
+        "req1": "Computers",
+        "req2": "Rocketry"
+    },
+    {
+        "flags": "",
+        "graphic": "a.stealth",
+        "graphic_alt": "-",
+        "name": "Stealth",
+        "req1": "Superconductors",
+        "req2": "Advanced Flight"
+    },
+    {
+        "flags": "",
+        "graphic": "a.steam_engine",
+        "graphic_alt": "-",
+        "name": "Steam Engine",
+        "req1": "Physics",
+        "req2": "Invention"
+    },
+    {
+        "flags": "",
+        "graphic": "a.steel",
+        "graphic_alt": "-",
+        "name": "Steel",
+        "req1": "Electricity",
+        "req2": "Industrialization"
+    },
+    {
+        "flags": "",
+        "graphic": "a.superconductors",
+        "graphic_alt": "-",
+        "name": "Superconductors",
+        "req1": "Nuclear Power",
+        "req2": "Laser"
+    },
+    {
+        "flags": "",
+        "graphic": "a.tactics",
+        "graphic_alt": "-",
+        "name": "Tactics",
+        "req1": "Conscription",
+        "req2": "Leadership"
+    },
+    {
+        "flags": "",
+        "graphic": "a.the_corporation",
+        "graphic_alt": "-",
+        "helptext": "Allows establishing one more trade route from each city.",
+        "name": "The Corporation",
+        "req1": "Economics",
+        "req2": "Industrialization"
+    },
+    {
+        "flags": "",
+        "graphic": "a.the_republic",
+        "graphic_alt": "-",
+        "name": "The Republic",
+        "req1": "Code of Laws",
+        "req2": "Literacy"
+    },
+    {
+        "flags": "",
+        "graphic": "a.the_wheel",
+        "graphic_alt": "-",
+        "name": "The Wheel",
+        "req1": "Horseback Riding",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.theology",
+        "graphic_alt": "-",
+        "helptext": "Improves the effect of Cathedrals.",
+        "name": "Theology",
+        "req1": "Feudalism",
+        "req2": "Monotheism"
+    },
+    {
+        "flags": "",
+        "graphic": "a.theory_of_gravity",
+        "graphic_alt": "-",
+        "name": "Theory of Gravity",
+        "req1": "Astronomy",
+        "req2": "University"
+    },
+    {
+        "flags": "",
+        "graphic": "a.trade",
+        "graphic_alt": "-",
+        "name": "Trade",
+        "req1": "Currency",
+        "req2": "Code of Laws"
+    },
+    {
+        "flags": "",
+        "graphic": "a.university",
+        "graphic_alt": "-",
+        "name": "University",
+        "req1": "Mathematics",
+        "req2": "Philosophy"
+    },
+    {
+        "flags": "",
+        "graphic": "a.warrior_code",
+        "graphic_alt": "-",
+        "name": "Warrior Code",
+        "req1": "None",
+        "req2": "None"
+    },
+    {
+        "flags": "",
+        "graphic": "a.writing",
+        "graphic_alt": "-",
+        "name": "Writing",
+        "req1": "Alphabet",
+        "req2": "None"
+    }
+]
