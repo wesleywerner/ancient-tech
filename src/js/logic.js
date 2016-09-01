@@ -12,6 +12,7 @@ game.resolveTechs = function (civilization) {
     // valid tech - ignore meta data
     if (tech.name) {
       
+      var ownsCurrent = civilization.ownedtech.indexOf(tech.name) > -1;
       var ownsReq1 = (tech.req1 == 'None') || civilization.ownedtech.indexOf(tech.req1) > -1;
       var ownsReq2 = (tech.req2 == 'None') || civilization.ownedtech.indexOf(tech.req2) > -1;
 
@@ -24,7 +25,7 @@ game.resolveTechs = function (civilization) {
         //}
       //});
       
-      if (ownsReq1 && ownsReq2) {
+      if (ownsReq1 && ownsReq2 && !ownsCurrent) {
         var copy = JSON.parse(JSON.stringify(tech));
         copy.color = civilization.color;
         giventech.push(copy);
@@ -75,6 +76,9 @@ game.applyBindings = function () {
       view: 'research',
       civilizations: game.civilizations,
       tech: game.techs
+    },
+    methods: {
+      giveCivilizationTech: game.debug.giveCivilizationTech
     }
   });
 }
@@ -82,6 +86,7 @@ game.applyBindings = function () {
 
 game.prepareData = function () {
   game.resetCivilizations();
+  game.debug.resolve();
   game.applyBindings();
 }
 
@@ -110,8 +115,13 @@ game.debug = { };
 game.debug.listCivilizations = function () {
   console.table(JSON.parse( JSON.stringify(game.civilizations) ))
 }
-game.debug.giveCivilizationTech = function (techname) {
-  game.civilizations[0].ownedtech.push(techname);
+game.debug.giveCivilizationTech = function (e) {
+  if (typeof e == "string") {
+    game.civilizations[0].ownedtech.push(e);
+  }
+  else if (typeof e == "number") {
+    game.civilizations[0].ownedtech.push(game.civilizations[0].availabletech[e].name);
+  }
   game.debug.resolve();
 }
 game.debug.resolve = function () {

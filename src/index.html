@@ -80,11 +80,11 @@
 
     <div class="col s12" v-show="view == 'debug'" style="display:none">
       <ul>
-        <li v-for="culture in cultures">
-          <strong>{{ culture.name }}</strong>
-          <ul>
-            <li v-bind:class="ctech.color" v-for="ctech in culture.allowedTech">{{ ctech.name }}</li>
-          </ul>
+        <li v-for="civ in civilizations">
+          <strong>{{ civ.name }}</strong>
+          <ol>
+            <li v-bind:class="tech.color" v-for="tech in civ.ownedtech">{{ tech }}</li>
+          </ol>
         </li>
       </ul>
     </div>
@@ -107,7 +107,7 @@
             <!-- <p>I am a very simple card.</p> -->
           </div>
           <div class="card-action">
-            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn" v-on:click="giveCivilizationTech($index)">Get</a>
             <span class="badge blue-text text-lighten-4">Researching</span>
           </div>
           <div class="card-reveal">
