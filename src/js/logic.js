@@ -41,6 +41,31 @@ game.resolveTechs = function (civilization) {
 
 
 /*
+ * Work out the number of techs required for each tech.
+ * This is used to calculate the cost of each tech as
+ * (r+2)*sqrt(r+2)*10
+ */
+game.countTechRequirements = function (tech) {
+  var checklist = [ ];
+  var ignorelist = [ ];
+  var count = 0;
+  if (tech.req1 != 'None' && checklist.indexOf(tech.req1) == -1) {
+    checklist.push(tech.req1);
+  }
+  if (tech.req2 != 'None' && checklist.indexOf(tech.req2) == -1) {
+    checklist.push(tech.req2);
+  }
+}
+
+
+game.determineAllTechRequirements = function () {
+  game.techs.forEach( function (tech) {
+    tech.reqcount = game.countTechRequirements(tech);
+  });
+}
+
+
+/*
  * Finds a tech by name.
  */
 game.getTech = function (name) {
