@@ -89,8 +89,26 @@
       </div>
     </div>
     
-    <!-- main content tabs -->
-    <div class="row" v-show="loading == false" style="display:none">
+    <!-- Welcome page -->
+    <div v-show="playerdata == null">
+      <div class="card-panel grey lighten-5 z-depth-1">
+        <div class="row valign-wrapper">
+          <div class="col s2">
+            <img src="images/astronomy.svg" alt="" class="responsive-img">
+          </div>
+          <div class="col s10">
+            <span class="black-text">
+              <h1 class="flow-text">Welcome to Technoclickr!</h1>
+              <p>Let's play a game.</p>
+              <a class="waves-effect modal-trigger btn" href="#newgame">Start</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main content -->
+    <div class="row" v-show="loading == false && playerdata != null" style="display:none">
       <div class="col s12">
         <ul class="tabs">
           <li class="tab col s3"><a href="#messagestab"><i class="tiny material-icons">message</i>
