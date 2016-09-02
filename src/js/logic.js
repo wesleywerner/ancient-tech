@@ -100,7 +100,9 @@ game.applyBindings = function () {
       loading: false,
       view: 'research',
       civilizations: game.civilizations,
-      tech: game.techs
+      tech: game.techs,
+      playername: '',
+      playerdata: null,      
     },
     methods: {
       giveCivilizationTech: game.debug.giveCivilizationTech

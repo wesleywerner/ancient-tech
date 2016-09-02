@@ -44,84 +44,118 @@
       <li><a href="#!">three</a></li>
     </ul>
 
-    <!-- Messages Dropdown Structure -->
-    <ul id="messages-dropdown" class="dropdown-content collection">
-      <li class="collection-item">You have enough resources to research Great Pyramid</li>
-      <li class="collection-item">You allied with the Mayans</li>
-    </ul>
-
+    <!-- Top nav -->
     <nav>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper teal">
         <a href="#!" class="brand-logo">Ancient Tech</a>
-        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-        
-        <ul class="right hide-on-med-and-down">
-          <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="messages-dropdown"><i class="material-icons right">message</i></a></li>
-          <li><a v-on:click="view = 'debug'"><i class="material-icons">code</i></a></li>
-          <li><a v-on:click="view = 'research'"><i class="material-icons">view_module</i></a></li>
-          <!-- Dropdown Trigger -->
-          <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-activates="more-dropdown"><i class="material-icons right">more_vert</i></a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-menu">
-          <li><a>Messages</a></li>
-          <li><a>Research</a></li>
-          <li class="divider"></li>
-          <li><a>New game</a></li>
-        </ul>
-        
+        <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
       </div>
     </nav>
     
+    <!-- Loading indicator -->
     <div class="progress" v-show="loading">
         <div class="indeterminate"></div>
     </div>
-    
-    <div class="row">
 
-    <div class="col s12" v-show="view == 'debug'" style="display:none">
-      <ul>
-        <li v-for="civ in civilizations">
-          <strong>{{ civ.name }}</strong>
-          <ol>
-            <li v-bind:class="tech.color" v-for="tech in civ.ownedtech">{{ tech }}</li>
-          </ol>
-        </li>
-      </ul>
-    </div>
-    
-    <div class="col s12" v-show="view == 'new game'" style="display:none">
-      <div class="input-field col s6">
-        <input id="last_name" type="text" class="validate" v-model="message">
-        <label for="last_name">Last Name</label>
+    <!-- Side nav -->
+    <ul id="slide-out" class="side-nav">
+      <li><div class="">  <!-- apply userView class to limit image height -->
+        <img class="background" src="images/300px-Chichen_Itza_3.jpg">
+      </div></li>
+      <li><a class="waves-effect modal-trigger" href="#newgame">New Game</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="waves-effect" href="#!">Help</a></li>
+    </ul>
+
+    <!-- New game modal -->
+    <div id="newgame" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>New Game</h4>
+        
+        <div class="input-field col s12">
+          <input id="player_name" type="text" class="validate" v-model="playername">
+          <label for="player_name">Your Name</label>
+        </div>
+
+        <label>Civilization</label>
+        <select class="browser-default" v-model="playerdata">
+          <option v-for="civ in civilizations" v-bind:value="civ">{{ civ.name }}</option>
+        </select>
+        
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Start</a>
+        <a href="#!" class="modal-action modal-close waves-effect btn-flat left">Cancel</a>
       </div>
     </div>
-
-    <div class="col s12" v-show="view == 'research'" style="display:none">
-      <div class="col s12 m6 l3" v-for="item in civilizations[0].availabletech">
-        <div class="card small sticky-action darken-1" v-bind:class="item.color">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="images/300px-Chichen_Itza_3.jpg">
-          </div>
-          <div class="card-content white-text">
-            <span class="card-title">{{ item.name }}</span>
-            <!-- <p>I am a very simple card.</p> -->
-          </div>
-          <div class="card-action">
-            <a class="waves-effect waves-light btn" v-on:click="giveCivilizationTech($index)">Get</a>
-            <span class="badge blue-text text-lighten-4">Researching</span>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">{{ item.name }}<i class="material-icons right">close</i></span>
-            <p>{{ item.description }}</p>
+    
+    <!-- main content tabs -->
+    <div class="row" v-show="loading == false" style="display:none">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a href="#messagestab"><i class="tiny material-icons">message</i>
+            <span class="hide-on-med-and-down">Messages</span></a></li>
+          <li class="tab col s3"><a class="active" href="#techtab"><i class="tiny material-icons">view_module</i>
+            <span class="hide-on-med-and-down">Tech</span></a></li>
+          <li class="tab col s3"><a href="#helptab"><i class="tiny material-icons">live_help</i>
+            <span class="hide-on-med-and-down">Help</span></a></li>
+          <li class="tab col s3"><a href="#debugtab"><i class="tiny material-icons">code</i>
+            <span class="hide-on-med-and-down">Debug</span></a></li>
+        </ul>
+      </div>
+      
+      <!-- Messages -->
+      <div id="messagestab" class="col s12">
+        <ul class="collection">
+          <li class="collection-item">You have enough resources to research Great Pyramid</li>
+          <li class="collection-item">You allied with the Mayans</li>
+        </ul>
+      </div>
+      
+      <!-- Clicker -->
+      <div id="techtab" class="col s12">
+        <div class="col s12 m6 l3" v-for="item in playerdata.availabletech">
+          <div class="card small sticky-action darken-1" v-bind:class="item.color">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/300px-Chichen_Itza_3.jpg">
+            </div>
+            <div class="card-content white-text">
+              <span class="card-title">{{ item.name }}</span>
+              <!-- <p>I am a very simple card.</p> -->
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn" v-on:click="giveCivilizationTech($index)">Get</a>
+              <span class="badge blue-text text-lighten-4">Researching</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">{{ item.name }}<i class="material-icons right">close</i></span>
+              <p>{{ item.description }}</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>  <!-- /view == research -->
+      
+      <!-- Help -->
+      <div id="helptab" class="col s12">
+      </div>
+
+      <!-- Debug -->
+      <div id="debugtab" class="col s12">
+        <ul class="browser-default">
+          <li v-for="civ in civilizations">
+            <strong>{{ civ.name }}</strong>
+            <ol>
+              <li v-bind:class="tech.color" v-for="tech in civ.ownedtech">{{ tech }}</li>
+            </ol>
+          </li>
+        </ul>
+      </div>
       
     </div>  <!-- /row -->
     
+  
 
-  </div>
+  </div>  <!-- /ancient container -->
 
   <!-- material -->
   <script
@@ -137,8 +171,12 @@
   <script>
     $( document ).ready(function () {
       // make the hamburger collapse on small devices, functional.
-      $(".button-collapse").sideNav();
-      });
+      $('.button-collapse').sideNav({ closeOnClick: true });
+      // enable modal triggers
+      $('.modal-trigger').leanModal();
+      // enable material select controls
+      $('select').material_select();
+    });
   </script>
 </body>
 
