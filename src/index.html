@@ -138,7 +138,7 @@
             <li v-for="item in playerdata.availabletech">
               <div class="collapsible-header"><i class="material-icons">filter_drama</i>{{ item.name }}</div>
               <div class="collapsible-body">
-                <p>{{ item.graphic }}</p>
+                <img class="responsive-img" src="images/tech/{{ item.graphic }}" />
                 <button class="waves-effect waves-teal btn-flat right">Research</button>
               </div>
             </li>

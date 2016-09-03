@@ -6,7 +6,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.advanced_flight",
+        "graphic": "advanced_flight.jpg",
         "graphic_alt": "-",
         "name": "Advanced Flight",
         "req1": "Radio",
@@ -14,7 +14,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.alphabet",
+        "graphic": "alphabet.jpg",
         "graphic_alt": "-",
         "name": "Alphabet",
         "req1": "None",
@@ -22,7 +22,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.amphibious_warfare",
+        "graphic": "amphibious_warfare.jpg",
         "graphic_alt": "-",
         "name": "Amphibious Warfare",
         "req1": "Navigation",
@@ -30,7 +30,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.astronomy",
+        "graphic": "astronomy.jpg",
         "graphic_alt": "-",
         "name": "Astronomy",
         "req1": "Mysticism",
@@ -38,14 +38,14 @@
     },
     {
         "flags": "",
-        "graphic": "a.atomic_theory",
+        "graphic": "atomic_theory.jpg",
         "graphic_alt": "-",
         "name": "Atomic Theory",
         "req1": "Theory of Gravity",
         "req2": "Physics"
     },
     {
-        "graphic": "a.automobile",
+        "graphic": "automobile.jpg",
         "graphic_alt": "-",
         "helptext": "Increases the population's contribution to pollution.",
         "name": "Automobile",
@@ -54,7 +54,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.banking",
+        "graphic": "banking.jpg",
         "graphic_alt": "-",
         "name": "Banking",
         "req1": "Trade",
@@ -62,7 +62,7 @@
     },
     {
         "flags": "Bridge",
-        "graphic": "a.bridge_building",
+        "graphic": "bridge_building.jpg",
         "graphic_alt": "-",
         "helptext": "Allows roads to be built on river tiles.",
         "name": "Bridge Building",
@@ -71,7 +71,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.bronze_working",
+        "graphic": "bronze_working.jpg",
         "graphic_alt": "-",
         "name": "Bronze Working",
         "req1": "None",
@@ -79,7 +79,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.ceremonial_burial",
+        "graphic": "ceremonial_burial.jpg",
         "graphic_alt": "-",
         "name": "Ceremonial Burial",
         "req1": "None",
@@ -87,7 +87,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.chemistry",
+        "graphic": "chemistry.jpg",
         "graphic_alt": "-",
         "name": "Chemistry",
         "req1": "University",
@@ -95,7 +95,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.chivalry",
+        "graphic": "chivalry.jpg",
         "graphic_alt": "-",
         "name": "Chivalry",
         "req1": "Feudalism",
@@ -103,7 +103,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.code_of_laws",
+        "graphic": "code_of_laws.jpg",
         "graphic_alt": "-",
         "name": "Code of Laws",
         "req1": "Alphabet",
@@ -111,7 +111,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.combined_arms",
+        "graphic": "combined_arms.jpg",
         "graphic_alt": "-",
         "name": "Combined Arms",
         "req1": "Mobile Warfare",
@@ -119,7 +119,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.combustion",
+        "graphic": "combustion.jpg",
         "graphic_alt": "-",
         "name": "Combustion",
         "req1": "Refining",
@@ -127,7 +127,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.communism",
+        "graphic": "communism.jpg",
         "graphic_alt": "-",
         "helptext": "Reduces the effect of Cathedrals.",
         "name": "Communism",
@@ -136,7 +136,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.computers",
+        "graphic": "computers.jpg",
         "graphic_alt": "-",
         "name": "Computers",
         "req1": "Mass Production",
@@ -144,7 +144,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.conscription",
+        "graphic": "conscription.jpg",
         "graphic_alt": "-",
         "name": "Conscription",
         "req1": "Democracy",
@@ -152,7 +152,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.construction",
+        "graphic": "construction.jpg",
         "graphic_alt": "-",
         "helptext": "Allows Settlers, Workers and Engineers to build fortresses.",
         "name": "Construction",
@@ -161,7 +161,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.currency",
+        "graphic": "currency.jpg",
         "graphic_alt": "-",
         "name": "Currency",
         "req1": "Bronze Working",
@@ -169,7 +169,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.democracy",
+        "graphic": "democracy.jpg",
         "graphic_alt": "-",
         "name": "Democracy",
         "req1": "Banking",
@@ -177,7 +177,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.economics",
+        "graphic": "economics.jpg",
         "graphic_alt": "-",
         "name": "Economics",
         "req1": "Banking",
@@ -185,7 +185,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.electricity",
+        "graphic": "electricity.jpg",
         "graphic_alt": "-",
         "helptext": "Improves the effect of Colosseums.",
         "name": "Electricity",
@@ -194,7 +194,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.electronics",
+        "graphic": "electronics.jpg",
         "graphic_alt": "-",
         "name": "Electronics",
         "req1": "The Corporation",
@@ -202,7 +202,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.engineering",
+        "graphic": "engineering.jpg",
         "graphic_alt": "-",
         "name": "Engineering",
         "req1": "The Wheel",
@@ -210,7 +210,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.environmentalism",
+        "graphic": "environmentalism.jpg",
         "graphic_alt": "-",
         "name": "Environmentalism",
         "req1": "Recycling",
@@ -218,7 +218,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.espionage",
+        "graphic": "espionage.jpg",
         "graphic_alt": "-",
         "name": "Espionage",
         "req1": "Communism",
@@ -226,7 +226,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.explosives",
+        "graphic": "explosives.jpg",
         "graphic_alt": "-",
         "name": "Explosives",
         "req1": "Gunpowder",
@@ -234,7 +234,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.feudalism",
+        "graphic": "feudalism.jpg",
         "graphic_alt": "-",
         "name": "Feudalism",
         "req1": "Warrior Code",
@@ -242,7 +242,7 @@
     },
     {
         "flags": "Build_Airborne",
-        "graphic": "a.flight",
+        "graphic": "flight.jpg",
         "graphic_alt": "-",
         "helptext": "Decreases one-time revenue from new trade routes.",
         "name": "Flight",
@@ -251,7 +251,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.fusion_power",
+        "graphic": "fusion_power.jpg",
         "graphic_alt": "-",
         "name": "Fusion Power",
         "req1": "Nuclear Power",
@@ -259,7 +259,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.genetic_engineering",
+        "graphic": "genetic_engineering.jpg",
         "graphic_alt": "-",
         "name": "Genetic Engineering",
         "req1": "Medicine",
@@ -267,7 +267,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.guerilla_warfare",
+        "graphic": "guerilla_warfare.jpg",
         "graphic_alt": "-",
         "name": "Guerilla Warfare",
         "req1": "Communism",
@@ -275,7 +275,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.gunpowder",
+        "graphic": "gunpowder.jpg",
         "graphic_alt": "-",
         "name": "Gunpowder",
         "req1": "Invention",
@@ -283,14 +283,14 @@
     },
     {
         "flags": "",
-        "graphic": "a.horseback_riding",
+        "graphic": "horseback_riding.jpg",
         "graphic_alt": "-",
         "name": "Horseback Riding",
         "req1": "None",
         "req2": "None"
     },
     {
-        "graphic": "a.industrialization",
+        "graphic": "industrialization.jpg",
         "graphic_alt": "-",
         "helptext": "Population will start contributing to pollution.",
         "name": "Industrialization",
@@ -299,7 +299,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.invention",
+        "graphic": "invention.jpg",
         "graphic_alt": "-",
         "helptext": "Increases units' vision when in fortresses.",
         "name": "Invention",
@@ -308,7 +308,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.iron_working",
+        "graphic": "iron_working.jpg",
         "graphic_alt": "-",
         "name": "Iron Working",
         "req1": "Bronze Working",
@@ -316,7 +316,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.labor_union",
+        "graphic": "labor_union.jpg",
         "graphic_alt": "-",
         "name": "Labor Union",
         "req1": "Mass Production",
@@ -324,7 +324,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.laser",
+        "graphic": "laser.jpg",
         "graphic_alt": "-",
         "name": "Laser",
         "req1": "Mass Production",
@@ -332,7 +332,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.leadership",
+        "graphic": "leadership.jpg",
         "graphic_alt": "-",
         "name": "Leadership",
         "req1": "Chivalry",
@@ -340,7 +340,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.literacy",
+        "graphic": "literacy.jpg",
         "graphic_alt": "-",
         "name": "Literacy",
         "req1": "Writing",
@@ -348,7 +348,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.machine_tools",
+        "graphic": "machine_tools.jpg",
         "graphic_alt": "-",
         "name": "Machine Tools",
         "req1": "Steel",
@@ -356,7 +356,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.magnetism",
+        "graphic": "magnetism.jpg",
         "graphic_alt": "-",
         "helptext": "Allows establishing one more trade route from each city.",
         "name": "Magnetism",
@@ -365,7 +365,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.map_making",
+        "graphic": "map_making.jpg",
         "graphic_alt": "-",
         "name": "Map Making",
         "req1": "Alphabet",
@@ -373,14 +373,14 @@
     },
     {
         "flags": "",
-        "graphic": "a.masonry",
+        "graphic": "masonry.jpg",
         "graphic_alt": "-",
         "name": "Masonry",
         "req1": "None",
         "req2": "None"
     },
     {
-        "graphic": "a.mass_production",
+        "graphic": "mass_production.jpg",
         "graphic_alt": "-",
         "helptext": "Increases the population's contribution to pollution.",
         "name": "Mass Production",
@@ -389,7 +389,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.mathematics",
+        "graphic": "mathematics.jpg",
         "graphic_alt": "-",
         "name": "Mathematics",
         "req1": "Alphabet",
@@ -397,7 +397,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.medicine",
+        "graphic": "medicine.jpg",
         "graphic_alt": "-",
         "name": "Medicine",
         "req1": "Philosophy",
@@ -405,7 +405,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.metallurgy",
+        "graphic": "metallurgy.jpg",
         "graphic_alt": "-",
         "name": "Metallurgy",
         "req1": "Gunpowder",
@@ -413,7 +413,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.miniaturization",
+        "graphic": "miniaturization.jpg",
         "graphic_alt": "-",
         "name": "Miniaturization",
         "req1": "Machine Tools",
@@ -421,7 +421,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.mobile_warfare",
+        "graphic": "mobile_warfare.jpg",
         "graphic_alt": "-",
         "name": "Mobile Warfare",
         "req1": "Automobile",
@@ -429,7 +429,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.monarchy",
+        "graphic": "monarchy.jpg",
         "graphic_alt": "-",
         "name": "Monarchy",
         "req1": "Ceremonial Burial",
@@ -437,7 +437,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.monotheism",
+        "graphic": "monotheism.jpg",
         "graphic_alt": "-",
         "name": "Monotheism",
         "req1": "Philosophy",
@@ -445,7 +445,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.mysticism",
+        "graphic": "mysticism.jpg",
         "graphic_alt": "-",
         "helptext": "Improves the effect of Temples.",
         "name": "Mysticism",
@@ -454,7 +454,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.navigation",
+        "graphic": "navigation.jpg",
         "graphic_alt": "-",
         "name": "Navigation",
         "req1": "Seafaring",
@@ -462,7 +462,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.nuclear_fission",
+        "graphic": "nuclear_fission.jpg",
         "graphic_alt": "-",
         "name": "Nuclear Fission",
         "req1": "Mass Production",
@@ -470,7 +470,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.nuclear_power",
+        "graphic": "nuclear_power.jpg",
         "graphic_alt": "-",
         "helptext": "Gives sea units one extra move.",
         "name": "Nuclear Power",
@@ -480,7 +480,7 @@
     {
         "bonus_message": "Great philosophers from all the world join \nyour civilization: you learn %s immediately.",
         "flags": "Bonus_Tech",
-        "graphic": "a.philosophy",
+        "graphic": "philosophy.jpg",
         "graphic_alt": "-",
         "name": "Philosophy",
         "req1": "Mysticism",
@@ -488,14 +488,14 @@
     },
     {
         "flags": "",
-        "graphic": "a.physics",
+        "graphic": "physics.jpg",
         "graphic_alt": "-",
         "name": "Physics",
         "req1": "Literacy",
         "req2": "Navigation"
     },
     {
-        "graphic": "a.plastics",
+        "graphic": "plastics.jpg",
         "graphic_alt": "-",
         "helptext": "Increases the population's contribution to pollution.",
         "name": "Plastics",
@@ -504,7 +504,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.polytheism",
+        "graphic": "polytheism.jpg",
         "graphic_alt": "-",
         "name": "Polytheism",
         "req1": "Horseback Riding",
@@ -512,7 +512,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.pottery",
+        "graphic": "pottery.jpg",
         "graphic_alt": "-",
         "name": "Pottery",
         "req1": "None",
@@ -520,7 +520,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.radio",
+        "graphic": "radio.jpg",
         "graphic_alt": "-",
         "helptext": "Allows Workers and Engineers to build airbases and buoys.",
         "name": "Radio",
@@ -529,7 +529,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.railroad",
+        "graphic": "railroad.jpg",
         "graphic_alt": "-",
         "helptext": "\nAllows Settlers, Workers and Engineers to upgrade roads to railroads.\n\nDecreases one-time revenue from new trade routes.\n",
         "name": "?tech:Railroad",
@@ -538,7 +538,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.recycling",
+        "graphic": "recycling.jpg",
         "graphic_alt": "-",
         "name": "Recycling",
         "req1": "Mass Production",
@@ -546,7 +546,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.refining",
+        "graphic": "refining.jpg",
         "graphic_alt": "-",
         "name": "Refining",
         "req1": "Chemistry",
@@ -554,7 +554,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.refrigeration",
+        "graphic": "refrigeration.jpg",
         "graphic_alt": "-",
         "helptext": "\nAllows Settlers, Workers and Engineers to upgrade irrigation systems \nto farmland.\n",
         "name": "Refrigeration",
@@ -563,7 +563,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.robotics",
+        "graphic": "robotics.jpg",
         "graphic_alt": "-",
         "name": "Robotics",
         "req1": "Mobile Warfare",
@@ -571,7 +571,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.rocketry",
+        "graphic": "rocketry.jpg",
         "graphic_alt": "-",
         "name": "Rocketry",
         "req1": "Advanced Flight",
@@ -579,7 +579,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.sanitation",
+        "graphic": "sanitation.jpg",
         "graphic_alt": "-",
         "name": "Sanitation",
         "req1": "Engineering",
@@ -587,7 +587,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.seafaring",
+        "graphic": "seafaring.jpg",
         "graphic_alt": "-",
         "name": "Seafaring",
         "req1": "Pottery",
@@ -595,7 +595,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.space_flight",
+        "graphic": "space_flight.jpg",
         "graphic_alt": "-",
         "name": "Space Flight",
         "req1": "Computers",
@@ -603,7 +603,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.stealth",
+        "graphic": "stealth.jpg",
         "graphic_alt": "-",
         "name": "Stealth",
         "req1": "Superconductors",
@@ -611,7 +611,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.steam_engine",
+        "graphic": "steam_engine.jpg",
         "graphic_alt": "-",
         "name": "Steam Engine",
         "req1": "Physics",
@@ -619,7 +619,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.steel",
+        "graphic": "steel.jpg",
         "graphic_alt": "-",
         "name": "Steel",
         "req1": "Electricity",
@@ -627,7 +627,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.superconductors",
+        "graphic": "superconductors.jpg",
         "graphic_alt": "-",
         "name": "Superconductors",
         "req1": "Nuclear Power",
@@ -635,7 +635,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.tactics",
+        "graphic": "tactics.jpg",
         "graphic_alt": "-",
         "name": "Tactics",
         "req1": "Conscription",
@@ -643,7 +643,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.the_corporation",
+        "graphic": "the_corporation.jpg",
         "graphic_alt": "-",
         "helptext": "Allows establishing one more trade route from each city.",
         "name": "The Corporation",
@@ -652,7 +652,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.the_republic",
+        "graphic": "the_republic.jpg",
         "graphic_alt": "-",
         "name": "The Republic",
         "req1": "Code of Laws",
@@ -660,7 +660,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.the_wheel",
+        "graphic": "the_wheel.jpg",
         "graphic_alt": "-",
         "name": "The Wheel",
         "req1": "Horseback Riding",
@@ -668,7 +668,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.theology",
+        "graphic": "theology.jpg",
         "graphic_alt": "-",
         "helptext": "Improves the effect of Cathedrals.",
         "name": "Theology",
@@ -677,7 +677,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.theory_of_gravity",
+        "graphic": "theory_of_gravity.jpg",
         "graphic_alt": "-",
         "name": "Theory of Gravity",
         "req1": "Astronomy",
@@ -685,7 +685,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.trade",
+        "graphic": "trade.jpg",
         "graphic_alt": "-",
         "name": "Trade",
         "req1": "Currency",
@@ -693,7 +693,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.university",
+        "graphic": "university.jpg",
         "graphic_alt": "-",
         "name": "University",
         "req1": "Mathematics",
@@ -701,7 +701,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.warrior_code",
+        "graphic": "warrior_code.jpg",
         "graphic_alt": "-",
         "name": "Warrior Code",
         "req1": "None",
@@ -709,7 +709,7 @@
     },
     {
         "flags": "",
-        "graphic": "a.writing",
+        "graphic": "writing.jpg",
         "graphic_alt": "-",
         "name": "Writing",
         "req1": "Alphabet",
