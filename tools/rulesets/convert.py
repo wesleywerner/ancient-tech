@@ -22,5 +22,12 @@ config = ConfigObj(filename)
 l = []
 for n in config.sections:
   if n != 'control':
-    l.append(config.get(n))
+    item = config.get(n)
+    if 'graphic' in item.keys():
+      # remove graphic path prefix
+      if  item['graphic'].startswith('a.'):
+        item['graphic'] = item['graphic'][2:]
+      # append image extension
+      item['graphic'] += '.jpg'
+    l.append(item)
 print(json.dumps(l))
