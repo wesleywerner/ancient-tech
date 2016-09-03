@@ -1,3 +1,5 @@
 tools/rulesets/*.json
 tools/rulesets/*.pyc
 tools/rulesets/*.ruleset
+tools/images/freeciv*
+tools/images/processed/

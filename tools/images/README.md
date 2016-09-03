@@ -1,0 +1,1 @@
+Download the Freeciv graphics resource "freeciv-graphics-materials-*.tar.bz2" from https://sourceforge.net/projects/freeciv and bunzip and untar it into this directory. It should give you a "freeciv-*" directory.
