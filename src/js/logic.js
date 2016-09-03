@@ -115,6 +115,7 @@ game.prepareData = function () {
   game.resetCivilizations();
   game.debug.resolve();
   game.applyBindings();
+  game.binds.playerdata = game.civilizations[0];
 }
 
 

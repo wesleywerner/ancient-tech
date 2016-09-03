@@ -23,7 +23,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<title>untitled</title>
+	<title>Technoclickr</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.24.1" />
   <!--Import Google Icon Font-->
@@ -36,13 +36,6 @@
 
 <body>
 	<div id="ancient" class="container">
-
-    <!-- More Dropdown Structure -->
-    <ul id="more-dropdown" class="dropdown-content">
-      <li><a v-on:click="view = 'new game'">New Game</a></li>
-      <li class="divider"></li>
-      <li><a href="#!">three</a></li>
-    </ul>
 
     <!-- Top nav -->
     <nav>
@@ -132,6 +125,28 @@
       
       <!-- Clicker -->
       <div id="techtab" class="col s12">
+        
+        <div class="col s12 m8">
+          <!-- Visual -->
+          <canvas id="visual" class="card-panel teal"></canvas>
+        </div>  <!-- /Visual -->
+        
+        <div class="col s12 m4">
+          <!-- Technologies list -->
+
+          <ul class="collapsible" data-collapsible="accordion">
+            <li v-for="item in playerdata.availabletech">
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>{{ item.name }}</div>
+              <div class="collapsible-body">
+                <p>{{ item.graphic }}</p>
+                <button class="waves-effect waves-teal btn-flat right">Research</button>
+              </div>
+            </li>
+          </ul>
+          
+        </div>  <!-- /technologies list -->
+        
+<!--
         <div class="col s12 m6 l3" v-for="item in playerdata.availabletech">
           <div class="card small sticky-action darken-1" v-bind:class="item.color">
             <div class="card-image waves-effect waves-block waves-light">
@@ -139,7 +154,6 @@
             </div>
             <div class="card-content white-text">
               <span class="card-title">{{ item.name }}</span>
-              <!-- <p>I am a very simple card.</p> -->
             </div>
             <div class="card-action">
               <a class="waves-effect waves-light btn" v-on:click="giveCivilizationTech($index)">Get</a>
@@ -151,7 +165,9 @@
             </div>
           </div>
         </div>
-      </div>
+-->
+        
+      </div>  <!-- /clickr tab -->
       
       <!-- Help -->
       <div id="helptab" class="col s12">
