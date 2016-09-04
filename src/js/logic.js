@@ -82,12 +82,14 @@ game.resetCivilizations = function () {
   civs.forEach(function (civ) {
     game.civilizations.push({
       'name': civ,
+      'leader': 'Foo',
       'color': colors.shift(),
       'ownedtech': [],
       'availabletech': [],
       'researching': [],
       'allies': [],
-      'enemies': []
+      'enemies': [],
+      'lightbulbs': 0
       });
   });
 }
@@ -101,7 +103,6 @@ game.applyBindings = function () {
       view: 'research',
       civilizations: game.civilizations,
       tech: game.techs,
-      playername: '',
       playerdata: null,      
     },
     methods: {
