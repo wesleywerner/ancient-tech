@@ -103,15 +103,15 @@
     <!-- Main content -->
     <div class="row" v-show="loading == false && playerdata != null" style="display:none">
       <div class="col s12">
-        <ul class="tabs">
-          <li class="tab col s3"><a href="#messagestab"><i class="tiny material-icons">message</i>
-            <span class="hide-on-med-and-down">Messages</span></a></li>
-          <li class="tab col s3"><a class="active" href="#techtab"><i class="tiny material-icons">view_module</i>
-            <span class="hide-on-med-and-down">Tech</span></a></li>
-          <li class="tab col s3"><a href="#helptab"><i class="tiny material-icons">live_help</i>
-            <span class="hide-on-med-and-down">Help</span></a></li>
-          <li class="tab col s3"><a href="#debugtab"><i class="tiny material-icons">code</i>
-            <span class="hide-on-med-and-down">Debug</span></a></li>
+        <ul class="tabs teal lighten-5">
+          <li class="tab col s3"><a href="#messagestab"><i class="tiny material-icons black-text">message</i>
+            <span class="hide-on-med-and-down black-text">Messages</span></a></li>
+          <li class="tab col s3"><a class="active" href="#techtab"><i class="tiny material-icons black-text">build</i>
+            <span class="hide-on-med-and-down black-text">Research</span></a></li>
+          <li class="tab col s3"><a href="#helptab"><i class="tiny material-icons black-text">live_help</i>
+            <span class="hide-on-med-and-down black-text">Help</span></a></li>
+          <li class="tab col s3"><a href="#debugtab"><i class="tiny material-icons black-text">code</i>
+            <span class="hide-on-med-and-down black-text">Debug</span></a></li>
         </ul>
       </div>
       
@@ -134,12 +134,12 @@
         <div class="col s12 m4">
           <!-- Technologies list -->
 
-          <ul class="collapsible" data-collapsible="accordion">
+          <ul class="collapsible popout" data-collapsible="accordion">
             <li v-for="item in playerdata.availabletech">
-              <div class="collapsible-header"><i class="material-icons">filter_drama</i>{{ item.name }}</div>
+              <div class="collapsible-header">{{ item.name }}</div>
               <div class="collapsible-body">
                 <img class="responsive-img" src="images/tech/{{ item.graphic }}" />
-                <button class="waves-effect waves-teal btn-flat right">Research</button>
+                <button class="waves-effect waves-light btn right" v-on:click="giveCivilizationTech($index)">Research</button>
               </div>
             </li>
           </ul>

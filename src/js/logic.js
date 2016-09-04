@@ -150,7 +150,7 @@ game.debug.giveCivilizationTech = function (e) {
   else if (typeof e == "number") {
     game.civilizations[0].ownedtech.push(game.civilizations[0].availabletech[e].name);
   }
-  game.debug.resolve();
+  setTimeout (game.debug.resolve, 500);
 }
 game.debug.resolve = function () {
   game.resolveTechs(game.civilizations[0]);
